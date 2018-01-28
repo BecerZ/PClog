@@ -1,0 +1,13 @@
+boolean p = true ;
+boolean q = false ;
+
+boolean r ;
+
+r = p && q ;
+write ( r ) ; # outputs value
+r = p || q ;
+r = ! p ;     # Negation
+r = p != q ;  # not equal check
+r = p == q ;
+r = p --> q ;
+read ( r ) ; # reads input from user to r 

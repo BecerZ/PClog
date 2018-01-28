@@ -1,0 +1,15 @@
+if ( answer == 2 ) {
+  int a = 5 ;
+  boolean p = true ;
+}
+else
+  a = 4 ;
+
+# This is a comment.
+
+int x = 5 ;
+int y = 4 ;
+boolean p ;
+
+p = x < y ;  # checks the truth value of expression.
+

@@ -1,0 +1,48 @@
+# This tests if-else loops function declarations and function calls, numeric assignments
+
+int answer = 2 ;
+# This is the start given at the project page.
+if ( answer == 2 ) {
+  int a = 5 ;
+  boolean p = true ;
+}
+else
+  a = 4 ;
+
+boolean p = true ;
+while ( p ) 
+{
+  p = ! p ; # exits from the loop
+}
+
+for ( boolean p = true ; p ; p = ! p)
+{
+  # same as the while loop above
+}
+
+p = true ;
+do
+{
+  p = ! p ;
+} while ( p ) ;
+
+p = true ;
+const boolean q = false ;
+boolean r = foo ( p , q ) ;
+
+# Predicate declaration
+boolean foo ( bool p , bool q ) {
+# Tests for arithmetic ops
+  int x = 5 ;
+  int y = 4 ;
+  x = x + y ;
+  y = x - y ;
+  x = x * y ;
+  y = x / y ;
+  return true ;
+}
+
+int bar ( )
+{
+  return 0 ;
+}
